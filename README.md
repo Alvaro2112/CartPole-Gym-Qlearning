@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-To run it you will nedd the following dependencies:
+To run it you will need the following dependencies:
 
 ```
 import numpy as np
@@ -33,9 +33,13 @@ To train the model you can simply run:
 python CartPole_Q.py 
 ```
 
-### Break down into end to end tests
+If you wish you can play around with the Hyperparameters to try to better the convergence time.
+
+### Results
 
 Explain what these tests test and why
+
+![Rewards vs Episodes](/rewards.jpg)
 
 ```
 Give an example
