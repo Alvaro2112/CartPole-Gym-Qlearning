@@ -1,6 +1,6 @@
 import numpy as np
 import gym
-import matplotlib.pyplot as plt
+import Matplotlib.pyplot as plt
 import math
 
 

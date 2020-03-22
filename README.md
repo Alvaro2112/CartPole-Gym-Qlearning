@@ -1,4 +1,4 @@
-# Project Title
+# Solving CartPole Gym environment using Q learning
 
 One Paragraph of project description goes here
 
@@ -8,33 +8,30 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To run it you will nedd the following dependencies:
 
 ```
-Give examples
+import numpy as np
+import gym
+import matplotlib.pyplot as plt
+import math
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To clone the repository execute the following command:
 
 ```
-Give the example
+git clone git@github.com:Alvaro2112/Solved_CartPole_Using_Q_Learning.git
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To train the model you can simply run:
+
+```
+python CartPole_Q.py 
+```
 
 ### Break down into end to end tests
 
@@ -58,7 +55,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [OpenAI Gym](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
