@@ -20,7 +20,7 @@ import math
 To clone the repository execute the following command:
 
 ```
-git clone git@github.com:Alvaro2112/Solved_CartPole_Using_Q_Learning.git
+git clone git@github.com:Alvaro2112/Solving-CartPole-Gym-environment-using-Q-learning.git
 ```
 
 ## Running the tests
