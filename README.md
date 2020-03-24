@@ -28,7 +28,7 @@ git clone git@github.com:Alvaro2112/Solving-CartPole-Gym-environment-using-Q-lea
 To train the model you can simply run:
 
 ```
-python CartPole_Q.py 
+python CartPole_Q_Learning.py 
 ```
 
 If you wish, you can play around with the Hyperparameters to try to better the convergence time.
